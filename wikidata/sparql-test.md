@@ -25,3 +25,16 @@ SELECT (COUNT(DISTINCT ?s) AS ?c) WHERE {
 }
 ```
 結果：3437
+
+## 職業 -政治家を追加したが変わらず
+```
+SELECT (COUNT(DISTINCT ?s) AS ?c) WHERE { 
+  {?s (wdt:P102/wdt:P17) wd:Q17.}
+  UNION
+  {?s wdt:P39/wdt:P17 wd:Q17.}
+  UNION
+  {?s wdt:P106 wd:Q82955;
+      wdt:P72 wd:Q17}
+}
+```
+結果：3437
