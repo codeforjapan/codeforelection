@@ -15,3 +15,13 @@ SELECT (COUNT(DISTINCT ?s) AS ?c) WHERE {
 }
 ```
 結果：2976
+
+## 公職/国-日本 OR 所属政党/国-日本 
+```
+SELECT (COUNT(DISTINCT ?s) AS ?c) WHERE { 
+  {?s (wdt:P102/wdt:P17) wd:Q17.}
+  UNION
+  {?s wdt:P39/wdt:P17 wd:Q17.}
+}
+```
+結果：3437
