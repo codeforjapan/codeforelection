@@ -7,13 +7,6 @@ const postalFileName = `${__dirname}/../data/dl/postal_code/KEN_ALL.CSV.utf8`;
 const testFileName = `${__dirname}/../data/dl/postal_code/test/KEN_ALL.CSV`;
 
 /**
- * SenkyokuCellデータのリストを作っておき、
- llPostalCodeのtownName
- */
-
-
-
-/**
  * CSV読み込みのメタデータ
  * @type {[*]}
  */
@@ -35,7 +28,6 @@ const PostalCodeMeta = [
   "wakaran3",
   "wakaran4",
 ];
-
 
 class PostalCode{
   constructor(obj){
@@ -70,8 +62,6 @@ const pcr = new PostalCodeReader(postalFileName);
 //console.log(pcr.postalCodes);
 
 const SenkyokuCellReader =require("./senkyoku_cell_reader");
-const SenkyokuCell = require("./senkyoku_cell");
-
 const scr = new SenkyokuCellReader();
 console.log(scr.resultMessage());
 
@@ -80,8 +70,6 @@ const c2s = new City2Senkyoku();
 
 const keys = Object.keys(pcr.postalCodes);
 let max = keys.length;
-let count1 = 10;
-let count = 10;
 
 const res = {};
 for(let i = 0; i< max ; i = i + 1){
@@ -93,12 +81,8 @@ for(let i = 0; i< max ; i = i + 1){
   try{
     nums = c2s.senkyokuNums(pc.obj.cityCode);
     if(nums.length === 1){
-      if(count1 > 0) console.log(`${JSON.stringify(pc.obj)} は単一選挙区に含まれます`);
-      count1 = count1 - 1;
       continue;
     }
-    //if(false || count === 0) break;
-    count = count - 1;
     //選挙区情報から整理された都市情報を抽出
     const city = scr.cities[pc.obj.cityCode];
     const num = city.searchSenkyokuNumByTownName(pc.obj.townName, pc.obj);
