@@ -38,3 +38,25 @@ SELECT (COUNT(DISTINCT ?s) AS ?c) WHERE {
 }
 ```
 結果：3437
+
+## プロパティ一覧の取得
+```
+SELECT distinct ?p ?p2 ?pl ?plj WHERE {
+    {
+    SELECT distinct ?p  WHERE {
+      ?s (wdt:P102/wdt:P17) wd:Q17. #所属政党/国-日本
+      #?s wdt:P39/wdt:P17 wd:Q17. #公職/国-日本
+      #?s wdt:P31 wd:Q5 . #Personのインスタンス
+      ?s ?p ?o. 
+        }
+  limit 1000 #LIMITをかけないとタイムアウトする
+  }
+  ?p2 wikibase:directClaim ?p.
+  ?p2 rdfs:label ?pl.
+  FILTER(lang(?pl)="en")
+  OPTIONAL{
+    ?p2 rdfs:label ?plj.
+    FILTER(lang(?plj)="ja")
+  }  
+} 
+```
