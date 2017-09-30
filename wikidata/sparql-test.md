@@ -60,3 +60,4 @@ SELECT distinct ?p ?p2 ?pl ?plj WHERE {
   }  
 } 
 ```
+クエリの実行　http://tinyurl.com/yan9meej
