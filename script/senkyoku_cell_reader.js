@@ -17,7 +17,6 @@ module.exports = class SenkyokuCellReader{
     this.dir_path = dir_path;
     this.cities = {};
     this.cells = [];
-    this.cellCount = 0
   }
   readFiles(){
     this.files = fs.readdirSync(this.dir_path);
