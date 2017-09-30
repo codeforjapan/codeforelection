@@ -26,11 +26,11 @@ module.exports = class SenkyokuCellReader{
         this.filePath = this.files[i];
         const data = fs.readFileSync(this.dir_path + this.files[i]);
         this.res = csvSync(data, {columns: true});
-        this.readLines();
+        this._readLines();
       }
     }
   }
-  readLines(){
+  _readLines(){
     for(let i=0; i< this.res.length ; i = i + 1){
       let elem = this.res[i];
       const cell = new Cell(elem);
