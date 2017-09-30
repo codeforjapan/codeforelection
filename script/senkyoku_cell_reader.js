@@ -51,7 +51,7 @@ module.exports = class SenkyokuCellReader{
     }
   }
   resultMessage(){
-    return `${Object.keys(this.cities).length}都市、${this.cells.length}の地点データを読み込みました`;
+    return `選挙区cellを ${Object.keys(this.cities).length}都市、${this.cells.length}の地点データを読み込みました`;
   }
 
 }
