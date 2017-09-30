@@ -6,6 +6,7 @@ module.exports = class City{
     this.cityCode = cell.cityCode();
     this.cityName = cell.cityName();
     this.senkyokuNums = [cell.senkyokuNum()];
+    this.cells = [];
     this.isDevided = false;
   }
   isSameCity(cell){
@@ -14,10 +15,15 @@ module.exports = class City{
   registerSenkyokuNum(cell){
     if(!this.isSameCity(cell)) return false;
     if(this.senkyokuNums.includes(cell.senkyokuNum())) return false;
+    this.cells.push(cell);
     this.senkyokuNums.push(cell.senkyokuNum());
     this.senkyokuNums.sort((a,b)=>{ return a - b});
     this.isDevided = (this.senkyokuNums.length > 1);
   }
+  /**
+   * 小選挙区で分割されている自治体かどうか
+   * @returns {boolean}
+   */
   isDevided(){
     return this.senkyokuNums.length > 1;
   }
