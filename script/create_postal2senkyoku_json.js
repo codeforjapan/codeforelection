@@ -9,5 +9,8 @@ const testFileName = "test.csv";
 
 const fileReader = new SenkyokuCellReader(senkyokuDirPath);
 console.log(fileReader.resultMessage());
+const cities = fileReader.cities;
+//存在しないデータを追加
+cities["04216"] = {prefCode:"04",cityCode:"04216",cityName:"富谷市",senkyokuNums:["4"],isDevided:false};
 fs.writeFile("../data/json/city2senkyoku.json", JSON.stringify(fileReader.cities));
 
