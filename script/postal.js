@@ -3,7 +3,7 @@
 const fs = require("fs-extra");
 const csvSync = require('csv-parse/lib/sync');
 
-const postalFileName = `${__dirname}/../data/dl/postal_code/KEN_ALL.CSV`;
+const postalFileName = `${__dirname}/../data/dl/postal_code/KEN_ALL.CSV.utf8`;
 const testFileName = `${__dirname}/../data/dl/postal_code/test/KEN_ALL.CSV`;
 
 /**
