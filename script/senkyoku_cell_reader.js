@@ -49,6 +49,9 @@ module.exports = class SenkyokuCellReader{
       this.cities[cell.cityCode()].registerSenkyokuNum(cell);
       this.cells.push(cell);
     }
+    Object.keys(this.cities).forEach((k)=>{
+      this.cities[k].setStandardSenkyokuNum();
+    })
   }
   resultMessage(){
     return `選挙区cellを ${Object.keys(this.cities).length}都市、${this.cells.length}の地点データを読み込みました`;
