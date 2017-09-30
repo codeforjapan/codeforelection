@@ -8,6 +8,9 @@ sh  prepare.sh
 ```
 
 # データ取得元
-- http://www.csis.u-tokyo.ac.jp/~nishizawa/senkyoku/
-- http://www.post.japanpost.jp/zipcode/download.html
+## 選挙区
+- [西沢先生作成ポリゴンデータ](http://www.csis.u-tokyo.ac.jp/~nishizawa/senkyoku/)
 
+## Postal
+- [郵便番号](http://www.post.japanpost.jp/zipcode/download.html)
+- [郵便番号データREADME](http://www.post.japanpost.jp/zipcode/dl/readme.html)
