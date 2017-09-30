@@ -12,6 +12,6 @@ describe("City2Senkyoku",()=>{
     assert(Object.keys(c2s.hash).length > 2);
   });
   it("10201の市町村が引ける",()=>{
-    assert(c2s.senkyokuNums(["10201"]);
+    assert(c2s.senkyokuNums("10201"));
   });
 });
