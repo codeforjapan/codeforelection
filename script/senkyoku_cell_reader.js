@@ -17,8 +17,9 @@ module.exports = class SenkyokuCellReader{
     this.dir_path = dir_path;
     this.cities = {};
     this.cells = [];
+    this._readFiles()
   }
-  readFiles(){
+  _readFiles(){
     this.files = fs.readdirSync(this.dir_path);
     //指定されたdirからファイルごとにループ
     for(let i = 0; i < this.files.length ; i = i + 1){

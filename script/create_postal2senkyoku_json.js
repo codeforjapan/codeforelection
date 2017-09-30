@@ -8,7 +8,6 @@ const senkyokuDirPath = `${__dirname}/../data/dl/senkyoku/CCAminToSenkyokuKokai/
 const testFileName = "test.csv";
 
 const fileReader = new SenkyokuCellReader(senkyokuDirPath);
-fileReader.readFiles();
 console.log(fileReader.resultMessage());
 fs.writeFile("../data/json/city2senkyoku.json", JSON.stringify(fileReader.cities));
 
