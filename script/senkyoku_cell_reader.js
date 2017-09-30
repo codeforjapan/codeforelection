@@ -13,11 +13,12 @@ const City = require("./city");
 const senkyokuDirPath = `${__dirname}/../data/dl/senkyoku/CCAminToSenkyokuKokai/`;
 
 module.exports = class SenkyokuCellReader{
-  constructor(dir_path = senkyokuDirPath) {
+  constructor(dir_path = senkyokuDirPath, forJson = false) {
     this.dir_path = dir_path;
     this.cities = {};
     this.cells = [];
-    this._readFiles()
+    this.forJson = forJson;
+    this._readFiles();
   }
   _readFiles(){
     this.files = fs.readdirSync(this.dir_path);
@@ -44,17 +45,19 @@ module.exports = class SenkyokuCellReader{
         continue;
       }
       if(!this.cities[cell.cityCode()]){
-        this.cities[cell.cityCode()] = new City(cell);
+        this.cities[cell.cityCode()] = new City(cell, this.forJson);
       }
       this.cities[cell.cityCode()].registerSenkyokuNum(cell);
       this.cells.push(cell);
     }
     Object.keys(this.cities).forEach((k)=>{
-      this.cities[k].setStandardSenkyokuNum();
-    })
+      if(!this.forJson){
+        this.cities[k].setStandardSenkyokuNum();
+      }
+    });
   }
   resultMessage(){
-    return `選挙区cellを ${Object.keys(this.cities).length}都市、${this.cells.length}の地点データを読み込みました`;
+    return `選挙区cellを ${Object.keys(this.cities).length}都市、${this.cells.length}の地点データを読み込みました ${this.forJson ? "JSON用です": ""}`;
   }
 
 }

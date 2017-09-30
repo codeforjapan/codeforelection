@@ -1,13 +1,14 @@
 "use strict";
 
 module.exports = class City{
-  constructor(cell){
+  constructor(cell, forJson=false){
     this.prefCode = cell.prefCode();
     this.cityCode = cell.cityCode();
     this.cityName = cell.cityName();
     this.senkyokuNums = [cell.senkyokuNum()];
     this.cells = [];
-    this.standardSenkyokuNum = 1
+    this.standardSenkyokuNum = 1;
+    this.forJson = forJson;
     this.isDevided = false;
   }
   isSameCity(cell){
@@ -15,7 +16,7 @@ module.exports = class City{
   }
   registerSenkyokuNum(cell){
     if(!this.isSameCity(cell)) return false;
-    this.cells.push(cell);
+    if(!this.forJson) this.cells.push(cell);
     if(this.senkyokuNums.includes(cell.senkyokuNum())) return false;
     this.senkyokuNums.push(cell.senkyokuNum());
     this.senkyokuNums.sort((a,b)=>{ return a - b});
@@ -95,7 +96,7 @@ module.exports = class City{
 
   getMostFreqentSenkyokuNum(cells){
     const debug = false;
-    if(cells.length === 0) throw "セルが１つも存在しません";
+    if(cells.length === 0) throw `セルが１つも存在しません ${JSON.stringify(this)}`;
     if(debug) console.log(`セルの配列の長さ=${cells.length}`);
     let count = {};
     for(let i = 0; i < cells.length; i = i + 1){
