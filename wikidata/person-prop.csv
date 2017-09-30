@@ -1,0 +1,186 @@
+p,p2,pl,plj
+http://www.wikidata.org/prop/direct/P269,http://www.wikidata.org/entity/P269,SUDOC authorities,SUDOC
+http://www.wikidata.org/prop/direct/P268,http://www.wikidata.org/entity/P268,BnF ID,BNF
+http://www.wikidata.org/prop/direct/P18,http://www.wikidata.org/entity/P18,image,画像
+http://www.wikidata.org/prop/direct/P271,http://www.wikidata.org/entity/P271,CiNii author ID,CiNii著者識別子
+http://www.wikidata.org/prop/direct/P19,http://www.wikidata.org/entity/P19,place of birth,出生地
+http://www.wikidata.org/prop/direct/P281,http://www.wikidata.org/entity/P281,postal code,郵便番号
+http://www.wikidata.org/prop/direct/P286,http://www.wikidata.org/entity/P286,head coach,チーム監督またはヘッドコーチ
+http://www.wikidata.org/prop/direct/P345,http://www.wikidata.org/entity/P345,IMDb ID,IMDb識別子
+http://www.wikidata.org/prop/direct/P20,http://www.wikidata.org/entity/P20,place of death,死亡地
+http://www.wikidata.org/prop/direct/P21,http://www.wikidata.org/entity/P21,sex or gender,性別
+http://www.wikidata.org/prop/direct/P349,http://www.wikidata.org/entity/P349,NDL Auth ID,国立国会図書館典拠ID
+http://www.wikidata.org/prop/direct/P373,http://www.wikidata.org/entity/P373,Commons category,コモンズのカテゴリ
+http://www.wikidata.org/prop/direct/P22,http://www.wikidata.org/entity/P22,father,父親
+http://www.wikidata.org/prop/direct/P410,http://www.wikidata.org/entity/P410,military rank,軍隊の階級
+http://www.wikidata.org/prop/direct/P409,http://www.wikidata.org/entity/P409,NLA (Australia) ID,NLA
+http://www.wikidata.org/prop/direct/P25,http://www.wikidata.org/entity/P25,mother,母親
+http://www.wikidata.org/prop/direct/P413,http://www.wikidata.org/entity/P413,position played on team / speciality,ポジション
+http://www.wikidata.org/prop/direct/P412,http://www.wikidata.org/entity/P412,voice type,声域
+http://www.wikidata.org/prop/direct/P26,http://www.wikidata.org/entity/P26,spouse,配偶者
+http://www.wikidata.org/prop/direct/P27,http://www.wikidata.org/entity/P27,country of citizenship,国籍
+http://www.wikidata.org/prop/direct/P434,http://www.wikidata.org/entity/P434,MusicBrainz artist ID,MusicBrainzアーティストID
+http://www.wikidata.org/prop/direct/P451,http://www.wikidata.org/entity/P451,unmarried partner,同棲者
+http://www.wikidata.org/prop/direct/P31,http://www.wikidata.org/entity/P31,instance of,分類
+http://www.wikidata.org/prop/direct/P463,http://www.wikidata.org/entity/P463,member of,所属グループ
+http://www.wikidata.org/prop/direct/P509,http://www.wikidata.org/entity/P509,cause of death,死因
+http://www.wikidata.org/prop/direct/P39,http://www.wikidata.org/entity/P39,position held,公職
+http://www.wikidata.org/prop/direct/P40,http://www.wikidata.org/entity/P40,child,子
+http://www.wikidata.org/prop/direct/P512,http://www.wikidata.org/entity/P512,academic degree,学位
+http://www.wikidata.org/prop/direct/P535,http://www.wikidata.org/entity/P535,Find a Grave grave ID,Find a Grave
+http://www.wikidata.org/prop/direct/P551,http://www.wikidata.org/entity/P551,residence,居住地
+http://www.wikidata.org/prop/direct/P53,http://www.wikidata.org/entity/P53,noble family,家系
+http://www.wikidata.org/prop/direct/P569,http://www.wikidata.org/entity/P569,date of birth,生年月日
+http://www.wikidata.org/prop/direct/P54,http://www.wikidata.org/entity/P54,member of sports team,所属チーム
+http://www.wikidata.org/prop/direct/P69,http://www.wikidata.org/entity/P69,educated at,出身校
+http://www.wikidata.org/prop/direct/P570,http://www.wikidata.org/entity/P570,date of death,没年月日
+http://www.wikidata.org/prop/direct/P101,http://www.wikidata.org/entity/P101,field of work,専門分野
+http://www.wikidata.org/prop/direct/P97,http://www.wikidata.org/entity/P97,noble title,爵位
+http://www.wikidata.org/prop/direct/P102,http://www.wikidata.org/entity/P102,member of political party,所属政党
+http://www.wikidata.org/prop/direct/P641,http://www.wikidata.org/entity/P641,sport,スポーツ
+http://www.wikidata.org/prop/direct/P607,http://www.wikidata.org/entity/P607,conflict,参加した戦い
+http://www.wikidata.org/prop/direct/P646,http://www.wikidata.org/entity/P646,Freebase ID,Freebase識別子
+http://www.wikidata.org/prop/direct/P103,http://www.wikidata.org/entity/P103,native language,母語
+http://www.wikidata.org/prop/direct/P106,http://www.wikidata.org/entity/P106,occupation,職業
+http://www.wikidata.org/prop/direct/P648,http://www.wikidata.org/entity/P648,Open Library ID,Open Library識別子
+http://www.wikidata.org/prop/direct/P734,http://www.wikidata.org/entity/P734,family name,姓
+http://www.wikidata.org/prop/direct/P691,http://www.wikidata.org/entity/P691,NKCR AUT ID,NKC識別子
+http://www.wikidata.org/prop/direct/P108,http://www.wikidata.org/entity/P108,employer,勤務先
+http://www.wikidata.org/prop/direct/P735,http://www.wikidata.org/entity/P735,given name,名
+http://www.wikidata.org/prop/direct/P109,http://www.wikidata.org/entity/P109,signature,署名
+http://www.wikidata.org/prop/direct/P112,http://www.wikidata.org/entity/P112,founded by,創設者
+http://www.wikidata.org/prop/direct/P742,http://www.wikidata.org/entity/P742,pseudonym,別名
+http://www.wikidata.org/prop/direct/P119,http://www.wikidata.org/entity/P119,place of interment,埋葬地
+http://www.wikidata.org/prop/direct/P793,http://www.wikidata.org/entity/P793,significant event,重要な出来事
+http://www.wikidata.org/prop/direct/P800,http://www.wikidata.org/entity/P800,notable work,主要作品
+http://www.wikidata.org/prop/direct/P802,http://www.wikidata.org/entity/P802,student,弟子
+http://www.wikidata.org/prop/direct/P135,http://www.wikidata.org/entity/P135,movement,文芸思潮
+http://www.wikidata.org/prop/direct/P856,http://www.wikidata.org/entity/P856,official website,公式ウェブサイト
+http://www.wikidata.org/prop/direct/P140,http://www.wikidata.org/entity/P140,religion,宗教
+http://www.wikidata.org/prop/direct/P906,http://www.wikidata.org/entity/P906,SELIBR,SELIBR
+http://www.wikidata.org/prop/direct/P157,http://www.wikidata.org/entity/P157,killed by,殺害者
+http://www.wikidata.org/prop/direct/P166,http://www.wikidata.org/entity/P166,award received,受賞
+http://www.wikidata.org/prop/direct/P910,http://www.wikidata.org/entity/P910,topic's main category,記事の中心カテゴリ
+http://www.wikidata.org/prop/direct/P172,http://www.wikidata.org/entity/P172,ethnic group,民族
+http://www.wikidata.org/prop/direct/P935,http://www.wikidata.org/entity/P935,Commons gallery,コモンズのギャラリー
+http://www.wikidata.org/prop/direct/P213,http://www.wikidata.org/entity/P213,ISNI,ISNI
+http://www.wikidata.org/prop/direct/P949,http://www.wikidata.org/entity/P949,National Library of Israel ID,NLI（イスラエル）識別子
+http://www.wikidata.org/prop/direct/P950,http://www.wikidata.org/entity/P950,BNE ID,BNE識別子
+http://www.wikidata.org/prop/direct/P214,http://www.wikidata.org/entity/P214,VIAF ID,VIAF識別子
+http://www.wikidata.org/prop/direct/P969,http://www.wikidata.org/entity/P969,located at street address,所在地
+http://www.wikidata.org/prop/direct/P968,http://www.wikidata.org/entity/P968,e-mail,Eメール
+http://www.wikidata.org/prop/direct/P227,http://www.wikidata.org/entity/P227,GND ID,GND識別子
+http://www.wikidata.org/prop/direct/P1006,http://www.wikidata.org/entity/P1006,National Thesaurus for Author Names ID,NTA PPN 識別子
+http://www.wikidata.org/prop/direct/P1005,http://www.wikidata.org/entity/P1005,PTBNP ID,PTBNP識別子
+http://www.wikidata.org/prop/direct/P241,http://www.wikidata.org/entity/P241,military branch,軍種
+http://www.wikidata.org/prop/direct/P244,http://www.wikidata.org/entity/P244,Library of Congress authority ID,LCNAF識別子
+http://www.wikidata.org/prop/direct/P1015,http://www.wikidata.org/entity/P1015,BIBSYS ID,BIBSYS識別子
+http://www.wikidata.org/prop/direct/P1038,http://www.wikidata.org/entity/P1038,relative,親族
+http://www.wikidata.org/prop/direct/P245,http://www.wikidata.org/entity/P245,ULAN ID,ULAN
+http://www.wikidata.org/prop/direct/P1050,http://www.wikidata.org/entity/P1050,medical condition,医学的状況
+http://www.wikidata.org/prop/direct/P1196,http://www.wikidata.org/entity/P1196,manner of death,死亡状況
+http://www.wikidata.org/prop/direct/P1207,http://www.wikidata.org/entity/P1207,NUKAT (WarsawU) authorities,NUKAT
+http://www.wikidata.org/prop/direct/P1220,http://www.wikidata.org/entity/P1220,Internet Broadway Database person ID,IBDB人物識別子
+http://www.wikidata.org/prop/direct/P2397,http://www.wikidata.org/entity/P2397,YouTube channel ID,YouTube channel ID
+http://www.wikidata.org/prop/direct/P2632,http://www.wikidata.org/entity/P2632,place of detention,収監場所
+http://www.wikidata.org/prop/direct/P1263,http://www.wikidata.org/entity/P1263,NNDB people ID,Notable Names Database の ID
+http://www.wikidata.org/prop/direct/P2639,http://www.wikidata.org/entity/P2639,Filmportal ID,Filmportal識別子
+http://www.wikidata.org/prop/direct/P2671,http://www.wikidata.org/entity/P2671,Google Knowledge Graph identifier,グーグル・ナレッジ・グラフ識別子
+http://www.wikidata.org/prop/direct/P1273,http://www.wikidata.org/entity/P1273,CANTIC-ID,CANTIC
+http://www.wikidata.org/prop/direct/P2838,http://www.wikidata.org/entity/P2838,professional name (Japan),名跡
+http://www.wikidata.org/prop/direct/P2900,http://www.wikidata.org/entity/P2900,fax number,FAX番号
+http://www.wikidata.org/prop/direct/P1317,http://www.wikidata.org/entity/P1317,floruit,活躍期
+http://www.wikidata.org/prop/direct/P1329,http://www.wikidata.org/entity/P1329,phone number,電話番号
+http://www.wikidata.org/prop/direct/P1296,http://www.wikidata.org/entity/P1296,Gran Enciclopèdia Catalana ID,カタルーニャ大百科事典識別子
+http://www.wikidata.org/prop/direct/P3305,http://www.wikidata.org/entity/P3305,KINENOTE person ID,キネノート人物識別子
+http://www.wikidata.org/prop/direct/P3284,http://www.wikidata.org/entity/P3284,Yahoo! Japan Talent Database ID,ヤフージャパン タレントデータベースID
+http://www.wikidata.org/prop/direct/P1343,http://www.wikidata.org/entity/P1343,described by source,掲載している事典
+http://www.wikidata.org/prop/direct/P3373,http://www.wikidata.org/entity/P3373,sibling,兄弟姉妹
+http://www.wikidata.org/prop/direct/P3417,http://www.wikidata.org/entity/P3417,Quora topic ID,Quoraトピック識別子
+http://www.wikidata.org/prop/direct/P1344,http://www.wikidata.org/entity/P1344,participant of,参加イベント
+http://www.wikidata.org/prop/direct/P1365,http://www.wikidata.org/entity/P1365,replaces,先行
+http://www.wikidata.org/prop/direct/P3448,http://www.wikidata.org/entity/P3448,stepparent,継親
+http://www.wikidata.org/prop/direct/P3502,http://www.wikidata.org/entity/P3502,Ameblo username,アメーバブログのアメーバID
+http://www.wikidata.org/prop/direct/P3477,http://www.wikidata.org/entity/P3477,Nihon Tarento Meikan ID,日本タレント名鑑ID
+http://www.wikidata.org/prop/direct/P1387,http://www.wikidata.org/entity/P1387,political alignment,政治的立場
+http://www.wikidata.org/prop/direct/P3703,http://www.wikidata.org/entity/P3703,JMDb person or company ID,JMDb人物と企業識別子
+http://www.wikidata.org/prop/direct/P3579,http://www.wikidata.org/entity/P3579,Sina Weibo ID,新浪微博のアカウント
+http://www.wikidata.org/prop/direct/P3602,http://www.wikidata.org/entity/P3602,candidacy in election,立候補選挙
+http://www.wikidata.org/prop/direct/P1411,http://www.wikidata.org/entity/P1411,nominated for,ノミネート
+http://www.wikidata.org/prop/direct/P1399,http://www.wikidata.org/entity/P1399,convicted of,罪名
+http://www.wikidata.org/prop/direct/P1412,http://www.wikidata.org/entity/P1412,"languages spoken, written or signed",使用可能言語
+http://www.wikidata.org/prop/direct/P1447,http://www.wikidata.org/entity/P1447,Sports-Reference.com Olympic athlete ID,Sports-Reference識別子
+http://www.wikidata.org/prop/direct/P1442,http://www.wikidata.org/entity/P1442,image of grave,墓の画像
+http://www.wikidata.org/prop/direct/P1477,http://www.wikidata.org/entity/P1477,birth name,出生名
+http://www.wikidata.org/prop/direct/P1469,http://www.wikidata.org/entity/P1469,FIFA player ID,FIFA選手コード
+http://www.wikidata.org/prop/direct/P1559,http://www.wikidata.org/entity/P1559,name in native language,母語表記
+http://www.wikidata.org/prop/direct/P1670,http://www.wikidata.org/entity/P1670,LAC ID,LAC識別子
+http://www.wikidata.org/prop/direct/P1581,http://www.wikidata.org/entity/P1581,official blog,公式ブログ
+http://www.wikidata.org/prop/direct/P1695,http://www.wikidata.org/entity/P1695,NLP ID,NLP識別子
+http://www.wikidata.org/prop/direct/P1801,http://www.wikidata.org/entity/P1801,commemorative plaque image,銘板画像
+http://www.wikidata.org/prop/direct/P1814,http://www.wikidata.org/entity/P1814,name in kana,読み仮名
+http://www.wikidata.org/prop/direct/P1853,http://www.wikidata.org/entity/P1853,blood type,血液型
+http://www.wikidata.org/prop/direct/P1889,http://www.wikidata.org/entity/P1889,different from,以下と異なる
+http://www.wikidata.org/prop/direct/P1942,http://www.wikidata.org/entity/P1942,McCune-Reischauer romanization,マッキューン＝ライシャワー式によるラテン語転写
+http://www.wikidata.org/prop/direct/P1953,http://www.wikidata.org/entity/P1953,Discogs artist ID,Discogs artist ID
+http://www.wikidata.org/prop/direct/P1971,http://www.wikidata.org/entity/P1971,number of children,実子の数
+http://www.wikidata.org/prop/direct/P2001,http://www.wikidata.org/entity/P2001,Revised Romanization,文化観光部2000年式によるラテン語転写
+http://www.wikidata.org/prop/direct/P2002,http://www.wikidata.org/entity/P2002,Twitter username,Twitterのユーザー名
+http://www.wikidata.org/prop/direct/P2003,http://www.wikidata.org/entity/P2003,Instagram username,インスタグラムのユーザー名
+http://www.wikidata.org/prop/direct/P2013,http://www.wikidata.org/entity/P2013,Facebook profile ID,フェイスブックID
+http://www.wikidata.org/prop/direct/P2031,http://www.wikidata.org/entity/P2031,work period (start),活動期間（開始）
+http://www.wikidata.org/prop/direct/P2032,http://www.wikidata.org/entity/P2032,work period (end),活動期間（終了）
+http://www.wikidata.org/prop/direct/P2048,http://www.wikidata.org/entity/P2048,height,高さ
+http://www.wikidata.org/prop/direct/P2067,http://www.wikidata.org/entity/P2067,mass,質量
+http://www.wikidata.org/prop/direct/P2125,http://www.wikidata.org/entity/P2125,Revised Hepburn romanization,修正ヘボン式ローマ字表記
+http://www.wikidata.org/prop/direct/P2163,http://www.wikidata.org/entity/P2163,FAST ID,FAST ID
+http://www.wikidata.org/prop/direct/P1266,http://www.wikidata.org/entity/P1266,AlloCiné person ID,
+http://www.wikidata.org/prop/direct/P1826,http://www.wikidata.org/entity/P1826,Baseball-Reference.com minor league player ID,
+http://www.wikidata.org/prop/direct/P1899,http://www.wikidata.org/entity/P1899,LibriVox author ID,
+http://www.wikidata.org/prop/direct/P2728,http://www.wikidata.org/entity/P2728,CageMatch worker ID,
+http://www.wikidata.org/prop/direct/P2857,http://www.wikidata.org/entity/P2857,WWE.com superstar ID,
+http://www.wikidata.org/prop/direct/P3222,http://www.wikidata.org/entity/P3222,NE.se ID,
+http://www.wikidata.org/prop/direct/P3221,http://www.wikidata.org/entity/P3221,NYT topic ID,
+http://www.wikidata.org/prop/direct/P3360,http://www.wikidata.org/entity/P3360,Nobel Prize People Nomination ID,
+http://www.wikidata.org/prop/direct/P549,http://www.wikidata.org/entity/P549,Mathematics Genealogy Project ID,
+http://www.wikidata.org/prop/direct/P1225,http://www.wikidata.org/entity/P1225,National Archives Identifier,
+http://www.wikidata.org/prop/direct/P1284,http://www.wikidata.org/entity/P1284,Munzinger IBA,
+http://www.wikidata.org/prop/direct/P1315,http://www.wikidata.org/entity/P1315,People Australia ID,
+http://www.wikidata.org/prop/direct/P1417,http://www.wikidata.org/entity/P1417,Encyclopædia Britannica Online ID,
+http://www.wikidata.org/prop/direct/P2019,http://www.wikidata.org/entity/P2019,AllMovie artist ID,
+http://www.wikidata.org/prop/direct/P2094,http://www.wikidata.org/entity/P2094,competition class,
+http://www.wikidata.org/prop/direct/P2605,http://www.wikidata.org/entity/P2605,ČSFD person ID,
+http://www.wikidata.org/prop/direct/P2604,http://www.wikidata.org/entity/P2604,Kinopoisk person ID,
+http://www.wikidata.org/prop/direct/P3430,http://www.wikidata.org/entity/P3430,SNAC ID,
+http://www.wikidata.org/prop/direct/P3695,http://www.wikidata.org/entity/P3695,SpeedSkatingStats speed skater ID,
+http://www.wikidata.org/prop/direct/P3782,http://www.wikidata.org/entity/P3782,Artnet artist ID,
+http://www.wikidata.org/prop/direct/P1289,http://www.wikidata.org/entity/P1289,KLfG Critical Dictionary of foreign contemporary literature,
+http://www.wikidata.org/prop/direct/P1741,http://www.wikidata.org/entity/P1741,GTAA ID,
+http://www.wikidata.org/prop/direct/P1950,http://www.wikidata.org/entity/P1950,second surname in Spanish name,
+http://www.wikidata.org/prop/direct/P2168,http://www.wikidata.org/entity/P2168,SFDb person ID,
+http://www.wikidata.org/prop/direct/P2387,http://www.wikidata.org/entity/P2387,Elonet person ID,
+http://www.wikidata.org/prop/direct/P2924,http://www.wikidata.org/entity/P2924,Great Russian Encyclopedia Online ID,
+http://www.wikidata.org/prop/direct/P3171,http://www.wikidata.org/entity/P3171,International Olympic Committee athlete ID,
+http://www.wikidata.org/prop/direct/P3694,http://www.wikidata.org/entity/P3694,SpeedSkatingNews.info speed skater ID,
+http://www.wikidata.org/prop/direct/P1969,http://www.wikidata.org/entity/P1969,MovieMeter director ID,
+http://www.wikidata.org/prop/direct/P2180,http://www.wikidata.org/entity/P2180,Kansallisbiografia ID,
+http://www.wikidata.org/prop/direct/P2190,http://www.wikidata.org/entity/P2190,C-SPAN person ID,
+http://www.wikidata.org/prop/direct/P2767,http://www.wikidata.org/entity/P2767,JudoInside.com ID,
+http://www.wikidata.org/prop/direct/P2830,http://www.wikidata.org/entity/P2830,Online World of Wrestling ID,
+http://www.wikidata.org/prop/direct/P2949,http://www.wikidata.org/entity/P2949,WikiTree ID,
+http://www.wikidata.org/prop/direct/P3544,http://www.wikidata.org/entity/P3544,Te Papa artist ID,
+http://www.wikidata.org/prop/direct/P3565,http://www.wikidata.org/entity/P3565,J.League player ID,
+http://www.wikidata.org/prop/direct/P2091,http://www.wikidata.org/entity/P2091,FISA rower ID,
+http://www.wikidata.org/prop/direct/P2350,http://www.wikidata.org/entity/P2350,Speedskatingbase.eu ID,
+http://www.wikidata.org/prop/direct/P2435,http://www.wikidata.org/entity/P2435,PORT person ID,
+http://www.wikidata.org/prop/direct/P2574,http://www.wikidata.org/entity/P2574,National-Football-Teams.com player ID,
+http://www.wikidata.org/prop/direct/P2626,http://www.wikidata.org/entity/P2626,DNF person ID,
+http://www.wikidata.org/prop/direct/P2764,http://www.wikidata.org/entity/P2764,Wrestlingdata person ID,
+http://www.wikidata.org/prop/direct/P2776,http://www.wikidata.org/entity/P2776,FIS Nordic combined skier ID,
+http://www.wikidata.org/prop/direct/P2829,http://www.wikidata.org/entity/P2829,Internet Wrestling Database ID,
+http://www.wikidata.org/prop/direct/P3188,http://www.wikidata.org/entity/P3188,Nobel prize ID,
+http://www.wikidata.org/prop/direct/P3630,http://www.wikidata.org/entity/P3630,Babelio author ID,
+http://www.wikidata.org/prop/direct/P4048,http://www.wikidata.org/entity/P4048,J.League manager ID,
+http://www.wikidata.org/prop/direct/P3520,http://www.wikidata.org/entity/P3520,databaseOlympics.com athlete ID,
+http://www.wikidata.org/prop/direct/P4186,http://www.wikidata.org/entity/P4186,Australian Women's Register ID,
+http://www.wikidata.org/prop/direct/P4191,http://www.wikidata.org/entity/P4191,Alljudo athlete ID,
