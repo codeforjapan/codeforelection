@@ -6,3 +6,8 @@
 ```shell
 sh  prepare.sh
 ```
+
+# データ取得元
+- http://www.csis.u-tokyo.ac.jp/~nishizawa/senkyoku/
+- http://www.post.japanpost.jp/zipcode/download.html
+
