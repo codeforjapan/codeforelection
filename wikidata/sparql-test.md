@@ -88,3 +88,37 @@ SERVICE wikibase:label {
 http://tinyurl.com/y8lc4poh
 ※ただ，現職以外もヒットする
 
+## 在職期間（開始日）の取得例
+```
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+prefix ps: <http://www.wikidata.org/prop/statement/> 
+
+SELECT distinct #?person ?personLabel  ?priod 
+    ?occupation ?occupationLabel #?occupationP 
+    ?position ?positionLabel ?positionP
+    #?party ?partyLabel ?partyP
+WHERE {
+#  wd:Q261703 p:P39 ?state.
+#  ?state ps:P39 wd:Q17506823 . 
+#  OPTIONAL{ ?state pq:P580 ?priod. }
+  wd:Q261703  p:P106 ?occupationST.
+  ?occupationST  ps:P106 ?occupation.
+#  OPTIONAL{ ?occupationST pq:P580 ?occupationP. }      
+  wd:Q261703 p:P39 ?positionST.
+  ?positionST ps:P39 ?position.
+  OPTIONAL{ ?positionST pq:P580 ?positionP. }
+#  wd:Q261703 p:P102 ?partyST.
+#  ?partyST ps:P102 ?party.
+#  OPTIONAL{ ?partyST pq:P580 ?partyP. }
+SERVICE wikibase:label {
+     bd:serviceParam wikibase:language "ja" .
+   }
+} ORDER BY ?person
+```
+実行例　http://tinyurl.com/y7dzkcoh  
+→衆議院議員全体を対象にテスト　http://tinyurl.com/y8rmbzbe  
+※衆議院議員の在職期間は，ほとんど記述がなさそう
