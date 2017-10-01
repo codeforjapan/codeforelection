@@ -84,6 +84,7 @@ SERVICE wikibase:label {
 - 必要なプロパティが決まれば，OPTIONALの中身を増やす   
 - 人物のIDの部分を候補者一覧に沿って差し替えて処理する   
 
-
-
+## 上記のクエリを「衆議院議員」を対象に実行
+http://tinyurl.com/y8lc4poh
+※ただ，現職以外もヒットする
 
