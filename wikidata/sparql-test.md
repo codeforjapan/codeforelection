@@ -61,3 +61,29 @@ SELECT distinct ?p ?p2 ?pl ?plj WHERE {
 } 
 ```
 クエリの実行　http://tinyurl.com/yan9meej
+
+## IDを指定した人物（政治家）から指定したプロパティの値を取得する例
+```
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+SELECT distinct ?class ?classLabel ?occupation ?occupationLabel ?position ?positionLabel ?partyLabel WHERE {
+  wd:Q261703 wdt:P31 ?class.
+OPTIONAL{
+  wd:Q261703 wdt:P106 ?occupation;
+             wdt:P39 ?position;
+             wdt:P102 ?party.
+  }
+SERVICE wikibase:label {
+     bd:serviceParam wikibase:language "ja" .
+   }
+} 
+```
+実行例：http://tinyurl.com/ybb6yve5  
+- 必要なプロパティが決まれば，OPTIONALの中身を増やす   
+- 人物のIDの部分を候補者一覧に沿って差し替えて処理する   
+
+
+
+
