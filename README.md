@@ -29,11 +29,11 @@ Code for 選挙プロジェクトは、2017年衆議院選挙候補者のオー�
 - [利用データ/東大西沢先生作成小選挙区データ](http://www.csis.u-tokyo.ac.jp/~nishizawa/senkyoku/)
 - [利用データ/郵便番号](http://www.post.japanpost.jp/zipcode/download.html)
 
-## データに関するライセンス
+### データに関するライセンス
+CC0
 
-
-## データ構造について
-
+### データ構造について
+TBD
 
 ## メンバー
 
