@@ -6,57 +6,8 @@ const csvSync = require('csv-parse/lib/sync');
 const postalFileName = `${__dirname}/../data/dl/postal_code/KEN_ALL.CSV.utf8`;
 const testFileName = `${__dirname}/../data/dl/postal_code/test/KEN_ALL.CSV`;
 
-/**
- * CSV読み込みのメタデータ
- * @type {[*]}
- */
 
-const PostalCodeMeta = [
-  "cityCode",
-  "postalCode5",
-  "postalCode7",
-  "PrefYomi",
-  "cityYomi",
-  "townYomi",
-  "prefName",
-  "cityName",
-  "townName",
-  "isDeviedTown",
-  "wakaran1",
-  "hasCyoume",
-  "wakaran2",
-  "wakaran3",
-  "wakaran4",
-];
-
-class PostalCode{
-  constructor(obj){
-    if(obj.cityCode.length !== 5){
-      throw "cityCodeの長さは5である必要があります";
-    }
-    this.obj = obj;
-  }
-}
-
-class PostalCodeReader{
-  constructor(fileName = testFileName){
-    this.fileName =fileName;
-    this.postalCodes = {};
-    const file = fs.readFileSync(fileName);
-    const data = csvSync(file,{columns: PostalCodeMeta});
-    for(let i = 0; i < data.length; i = i+1){
-      let postalCode;
-      try{
-        postalCode = new PostalCode(data[i]);
-        this.postalCodes[postalCode.obj.postalCode7] = postalCode;
-      }catch(e){
-        console.log(e);
-        continue
-      }
-    }
-    console.log( `postalCodeを　${Object.keys(this.postalCodes).length}個　読み込みました`)
-  }
-}
+const PostalCodeReader = require("./postal_code_reader");
 
 const pcr = new PostalCodeReader(postalFileName);
 //console.log(pcr.postalCodes);
@@ -71,8 +22,10 @@ const c2s = new City2Senkyoku();
 const keys = Object.keys(pcr.postalCodes);
 let max = keys.length;
 
+console.log(`postalCodesは${max}あります。`);
 const res = {};
-for(let i = 0; i< max ; i = i + 1){
+let i = 0;
+for(; i< max ; i = i + 1){
 　//各postalCodeのレコードについて確認
   //console.log(`key = ${keys[i]}`);
   const pc = pcr.postalCodes[keys[i]];
@@ -80,21 +33,31 @@ for(let i = 0; i< max ; i = i + 1){
   let nums ;
   try{
     nums = c2s.senkyokuNums(pc.obj.cityCode);
+    if(nums.length === 0) throw "numsが不足しています";
     if(nums.length === 1){
+      res[keys[i]] = {
+        c: pc.obj.cityCode,
+        s: nums[0]
+      };
       continue;
     }
     //選挙区情報から整理された都市情報を抽出
     const city = scr.cities[pc.obj.cityCode];
     const num = city.searchSenkyokuNumByTownName(pc.obj.townName, pc.obj);
     pc.obj.senkyoNum = num;
-    res[pc.obj.postalCode7] = {
-      cityCode: pc.obj.cityCode,
-      senkyoNum: num
+    res[keys[i]] = {
+      c: pc.obj.cityCode,
+      s: num
     };
   }catch (e){
     console.log(e);
   }
+  if(i%10000 ===0) console.log(`loop at ${i}`);
 }
+console.log(`loop end at ${i}`);
+
+console.log(`${Object.keys(res).length}個のデータを生成しました。`);
+
 const fileName = "postal2senkyoku.json";
 fs.writeFileSync(`${__dirname}/../data/json/${fileName}`, JSON.stringify(res));
 

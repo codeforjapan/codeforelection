@@ -1,0 +1,39 @@
+<html>
+
+<body>
+
+<input type="text" id="postal" value="2480005">
+<input type="submit" id="submit" />
+
+<p id="view"></p>
+<script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script>
+$(function(){
+  console.log("assert");
+  let data;
+  $.getJSON("./postal2senkyoku.json", (data_)=>{
+    data = data_;
+    $("#view").text( data.toString().substring(0,20));
+  });
+  $("#submit").click(()=>{
+    console.log(data);
+    const val = $("#postal").val();
+    console.log(val);
+    let p3 = val.substring(0,3);
+    console.log(p3);
+    let elem = data[p3];
+    if(!elem) elem = data[val+""];
+    console.log(elem);
+    $("#view").text(JSON.stringify(elem));
+  });
+});
+</script>
+
+
+</body>
+
+</html>
