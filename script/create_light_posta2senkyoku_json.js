@@ -14,8 +14,8 @@ class Postal3{
   constructor(obj){
     this.postal3 = obj.postal3;
     this.list = [obj];
-    this.cityCode = obj.cityCode
-    this.senkyokuNum = obj.senkyoNum;
+    this.c = obj.c;
+    this.s = obj.s;
     this.isSingleSenkyoku = true;
   }
 
@@ -23,25 +23,25 @@ class Postal3{
     if(!obj.postal3) throw "postal3がない";
     if(this.isSameArea(obj)){
       this.list.push(obj);
-      this.isSingleSenkyoku = (this.senkyokuNum === obj.senkyoNum);
+      this.isSingleSenkyoku = (this.s === obj.s);
     }
   }
   isSameArea(obj){
-    return this.postal3 === obj.postal3 && this.cityCode === obj.cityCode;
+    return this.postal3 === obj.postal3 && this.c === obj.c;
   }
   getResult(){
     if(this.isSingleSenkyoku){
       let rep = {
-        c: this.cityCode,
-        s: this.senkyokuNum,
+        c: this.c,
+        s: this.s,
         k: this.postal3,
       };
       return rep;
     }
     return this.list.map((e)=>{
       return {
-        c: e.cityCode,
-        s: e.senkyoNum,
+        c: e.c,
+        s: e.s,
         k: e.key
       }
     });
@@ -76,7 +76,7 @@ for ( let i = 0; i < list.length; i = i + 1 ){
 let hash = {};
 for(let i = 0; i < res.length; i = i + 1){
   hash[res[i].k] = {
-    c: res[i].c,
+    p: res[i].c.substring(0,2),
     s: res[i].s
   }
 }

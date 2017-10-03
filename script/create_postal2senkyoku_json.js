@@ -22,8 +22,10 @@ const c2s = new City2Senkyoku();
 const keys = Object.keys(pcr.postalCodes);
 let max = keys.length;
 
+console.log(`postalCodesは${max}あります。`);
 const res = {};
-for(let i = 0; i< max ; i = i + 1){
+let i = 0;
+for(; i< max ; i = i + 1){
 　//各postalCodeのレコードについて確認
   //console.log(`key = ${keys[i]}`);
   const pc = pcr.postalCodes[keys[i]];
@@ -31,21 +33,31 @@ for(let i = 0; i< max ; i = i + 1){
   let nums ;
   try{
     nums = c2s.senkyokuNums(pc.obj.cityCode);
+    if(nums.length === 0) throw "numsが不足しています";
     if(nums.length === 1){
+      res[keys[i]] = {
+        c: pc.obj.cityCode,
+        s: nums[0]
+      };
       continue;
     }
     //選挙区情報から整理された都市情報を抽出
     const city = scr.cities[pc.obj.cityCode];
     const num = city.searchSenkyokuNumByTownName(pc.obj.townName, pc.obj);
     pc.obj.senkyoNum = num;
-    res[pc.obj.postalCode7] = {
-      cityCode: pc.obj.cityCode,
-      senkyoNum: num
+    res[keys[i]] = {
+      c: pc.obj.cityCode,
+      s: num
     };
   }catch (e){
     console.log(e);
   }
+  if(i%10000 ===0) console.log(`loop at ${i}`);
 }
+console.log(`loop end at ${i}`);
+
+console.log(`${Object.keys(res).length}個のデータを生成しました。`);
+
 const fileName = "postal2senkyoku.json";
 fs.writeFileSync(`${__dirname}/../data/json/${fileName}`, JSON.stringify(res));
 
