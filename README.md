@@ -46,7 +46,9 @@ TBD
 今の政治の状況に対して声をあげるのも大事ですが、実際に手を動かすことで、政治家の活動の見える化に協力しませんか？
 各候補者の、過去の国会での発言や政策など、事実情報を淡々と積み上げることで、多くの人が正しい投票を行うサポートができるはずです。
 
-[情報まとめページ](https://hackmd.io/s/rkXhmQjjW) 内にかかれている、Slack チャンネルから議論に参加できます。
+参加方法については、[HowToContribute](https://github.com/codeforjapan/codeforelection/blob/master/HowToContribute.md)を参照してください。
+
+また、[情報まとめページ](https://hackmd.io/s/rkXhmQjjW) 内にかかれている、Slack チャンネルから議論に参加できます。
 
 ### お問い合わせ
 
