@@ -3,6 +3,18 @@
 このプロジェクトには、誰でも貢献ができます。
 今の政治の状況に対して声をあげるのも大事ですが、実際に手を動かすことで、政治家の活動の見える化に協力しませんか？ 各候補者の、過去の国会での発言や政策など、事実情報を淡々と積み上げることで、多くの人が正しい投票を行うサポートができるはずです。
 
+# 直近の人手が足りないタスク！
+10月6日現在、政治ナビから提供いただいた[現在の議員リスト](https://docs.google.com/spreadsheets/d/1T6BhIk_TU9KAOmBou8buvMkj_yK4c72jcJMGMOFUAg0/edit#gid=0)を[Wikidata](https://www.wikidata.org/)に登録しています。
+
+単純作業ではあるのですが数が膨大なので、お手伝いをいただけるかたを募集しています。
+
+10月5日現在、約15％が完了しています。
+10月10日の公示開始までに作業を完了させたいと考えています。ぜひご協力ください！
+
+Wikidataへの登録方法については、以下のドキュメントに詳細な手順が開設されています。
+
+* [Wikidata操作説明書](https://hackmd.io/BzDGE4FMAYGYDMC0AjYBWNiAs9m0ePKJCgExQDsAjACZXizgVA==)
+
 ## プロジェクトの内容
 
 政治家に関するデータの作成については、現在、大きく分けて以下2つの活動が対象となります。
@@ -23,24 +35,15 @@
 * 当選者（議員）のデータに関するWikidata更新
 * 当選者（議員）のデータをmySocietyデータと連携
 
-## 直近の人手が足りないタスク！
-10月6日現在、政治ナビから提供いただいた現在の議員リストをWikidataに登録しています。
-
-単純作業ではあるのですが数が膨大なので、お手伝いをいただけるかたを募集しています。
-
-Wikidataへの登録方法については、以下のドキュメントを参照してください。
-
-* [Wikidata操作説明書](https://hackmd.io/BzDGE4FMAYGYDMC0AjYBWNiAs9m0ePKJCgExQDsAjACZXizgVA==)
-
 ## プロジェクトへの参加
 プロジェクトに関する議論は主にGithubのIssueとSlackで行っています。
 
 是非ご参加ください！
 
 * Slack:#codeforelection
-* * http://cfj.slack.com/
+  * http://cfj.slack.com/
 * Slackへの参加はこちらから
-* * https://cfjslackin.herokuapp.com/
+  * https://cfjslackin.herokuapp.com/
 
 * [フロントエンドIssue](https://github.com/codeforjapan/codeforelection_front)
 * [データ作成側Issue](https://github.com/codeforjapan/codeforelection/issues)
