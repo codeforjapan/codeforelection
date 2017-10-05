@@ -70,9 +70,7 @@ Wikidataへの登録方法については、以下のドキュメントを参照
 
 ## プロジェクトサポート
 
-![政治ナビ](https://github.com/codeforjapan/codeforelection/blob/master/img/seijinabi-logo.png)
-
-http://www.dot-jp.or.jp/seijinavi/
+![政治ナビ](https://github.com/codeforjapan/codeforelection/blob/master/img/seijinavi-logo.png "政治ナビ")
 
 ## 過去の議論
 * [情報まとめページ](https://hackmd.io/s/rkXhmQjjW)
