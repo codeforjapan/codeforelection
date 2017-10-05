@@ -4,14 +4,15 @@
 今の政治の状況に対して声をあげるのも大事ですが、実際に手を動かすことで、政治家の活動の見える化に協力しませんか？ 各候補者の、過去の国会での発言や政策など、事実情報を淡々と積み上げることで、多くの人が正しい投票を行うサポートができるはずです。
 
 # 直近の人手が足りないタスク！
-10月6日現在、政治ナビから提供いただいた[現在の議員リスト](https://docs.google.com/spreadsheets/d/1T6BhIk_TU9KAOmBou8buvMkj_yK4c72jcJMGMOFUAg0/edit#gid=0)を[Wikidata](https://www.wikidata.org/)に登録しています。
+
+10月6日現在、候補者データの拡充をおこなっています。
+
+[Code for 選挙 GrayDB](https://docs.google.com/spreadsheets/d/182l2CexnCqZ0GPSg9sp2XMMfvUC4muuvYFdJp2Q-vkI/edit#gid=0)を性別, 誕生日, 年齢, twitter, facebook, 公式サイト, 学歴などの空欄を埋める作業をしています。このデータをもとにWikidataへ登録していきます。
+参考: [GrayDB 解説](https://hackmd.io/OwFgxgnBBmCMsFoBMATaBWBIkEMUKgA5EAGCFAUwDYwkR0SBmdIA)
 
 単純作業ではあるのですが数が膨大なので、お手伝いをいただけるかたを募集しています。
 
-10月5日現在、約15％が完了しています。
 10月10日の公示開始までに作業を完了させたいと考えています。ぜひご協力ください！
-
-Wikidataへの登録方法については、以下のドキュメントに詳細な手順が開設されています。
 
 * [Wikidata操作説明書](https://hackmd.io/BzDGE4FMAYGYDMC0AjYBWNiAs9m0ePKJCgExQDsAjACZXizgVA==)
 
@@ -78,6 +79,3 @@ Wikidataへの登録方法については、以下のドキュメントに詳細
 ## 過去の議論
 * [情報まとめページ](https://hackmd.io/s/rkXhmQjjW)
 * [ミーティング議事録 2017/10/02](https://hackmd.io/EbDMGMDMEMBMEYC0lZUQFgByVIzBWaSRcadeSABngHZwA2ATgCYg?view#)
-
-
-
