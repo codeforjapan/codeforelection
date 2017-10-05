@@ -42,9 +42,7 @@
 是非ご参加ください！
 
 * Slack:#codeforelection
-  * http://cfj.slack.com/
-* Slackへの参加はこちらから
-  * https://cfjslackin.herokuapp.com/
+  * http://cfj.slack.com/　([こちら](https://cfjslackin.herokuapp.com/)でユーザ登録が必要です。)
 
 * [フロントエンドIssue](https://github.com/codeforjapan/codeforelection_front)
 * [データ作成側Issue](https://github.com/codeforjapan/codeforelection/issues)
