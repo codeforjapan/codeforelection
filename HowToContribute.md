@@ -26,8 +26,8 @@
 ### 立候補者に関するデータ作成
 政治ナビ様より提供いただいた衆議院議員一覧を中心に、以下の活動を行います。
 
-* [URGENT!] 現在の衆議院議員の関連データをWikidataへ登録（第48回総選挙立候補者に限らず）: [Wikidata操作説明書](https://hackmd.io/BzDGE4FMAYGYDMC0AjYBWNiAs9m0ePKJCgExQDsAjACZXizgVA==)
-* 第48回総選挙の、立候補者一覧と関連データの作成
+* [URGENT!] 第48回総選挙の、立候補者一覧と関連データの作成
+  https://docs.google.com/spreadsheets/d/182l2CexnCqZ0GPSg9sp2XMMfvUC4muuvYFdJp2Q-vkI/edit#gid=0 を充実させます。
 * 立候補者検索フロントエンドの作成
 
 ### 当選者（議員）に関するデータ作成
@@ -42,7 +42,8 @@
 是非ご参加ください！
 
 * Slack:#codeforelection
-  * http://cfj.slack.com/　([こちら](https://cfjslackin.herokuapp.com/)でユーザ登録が必要です。)
+  * http://cfj.slack.com/
+  ([こちら](https://cfjslackin.herokuapp.com/)でユーザ登録が必要です。)
 
 * [フロントエンドIssue](https://github.com/codeforjapan/codeforelection_front)
 * [データ作成側Issue](https://github.com/codeforjapan/codeforelection/issues)
