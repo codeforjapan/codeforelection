@@ -53,3 +53,6 @@ data/dl/postal_code/*
 
 data/dl/senkyoku/*
 !data/dl/senkyoku/.keep
+
+/.env
+

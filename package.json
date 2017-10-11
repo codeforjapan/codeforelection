@@ -19,6 +19,7 @@
   "dependencies": {
     "csv": "^1.1.1",
     "csv-parse": "^1.2.3",
+    "dotenv": "^4.0.0",
     "exec": "^0.2.1",
     "fs-extra": "^4.0.2",
     "mocha": "^3.5.3",
