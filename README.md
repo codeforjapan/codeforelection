@@ -6,6 +6,10 @@ Code for 選挙プロジェクトは、2017年衆議院選挙候補者のオー�
 データ配布サイトなどフロントエンドに関する情報は、[codeforjapan/codeforelection_front](https://github.com/codeforjapan/codeforelection_front)を参照してください。
 
 ## 作成したデータについて
+### 候補者データ
+候補者データをCSV形式で提供しています。
+
+詳細は[こちら](https://kouhosha.info/data)
 
 ### 郵便番号-小選挙区検索データ
 - 7桁の郵便番号（事業所番号は除く）から、対応する289選挙区への対応を取れるオープンデータを作成しました。
